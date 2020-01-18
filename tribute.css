@@ -1,0 +1,30 @@
+#main {
+  background-color: #c2c2a3;
+  text-align: center;
+
+}
+#title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid brown;
+}
+
+
+#img-div {
+
+  height: auto;
+}
+
+#image {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+  vertical-align: middle;
+  max-width: 625px;
+}
+#img-caption {
+  background-color: #c2c2a3
+}
