@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="survey.css">
+
+    <title>Survey Form</title>
+  </head>
+  <body>
+<h1 id="title">Survey Form</h1>
+<p id="description"> This is a survey form for FCC</p>
+<form id="survey-form">
+<div class="form-group">
+ <label id="name-label" for="name">Name</label>
+ <input type="text" name="name" class="form-control" id="name" placeholder="name" required>
+  </div>
+  <div class="form-group">
+   <label id="email-label" for="email">Email</label>
+   <input type="email" name="email" class="form-control" id="email" placeholder="email" required>
+    </div>
+    <div class="form-group">
+     <label id="number-label" for="age">Age</label>
+     <input type="number" name="age" class="form-control" id="number" placeholder="number" min="01" max="99" required>
+      </div>
+      <div class="form-group">
+       <select id="dropdown" name="role" class="form-control" required>
+         <option disabled selected value>Choose option</option>
+         <option value="student">Student</option>
+         <option value="working">Working</option>
+         <option value="unemployed">Unemployed</option>
+       </select>
+        </div>
+        <div class="form-group">
+          <p>Would you recommend to friend ?</p>
+          <label><input type="radio" name="user-input" class="input-radio" value="yes" checked>Yes </label>
+          <label><input type="radio" name="user-input" class="input-radio" value="no">No </label>
+          <label><input type="radio" name="user-input" class="input-radio" value="maybe">Maybe </label>
+        </div>
+        <div class="form-group">
+          <p>areas to improve</p>
+          <label><input type="checkbox" name="prefer" value="frontend">Frontend </label>
+          <label><input type="checkbox" name="prefer" value="backend">Backend </label>
+          <label><input type="checkbox" name="prefer" value="full">Full </label>
+
+        </div>
+        <div class="form-group">
+          <p>any comments?</p>
+          <textarea name="name" id="comments" rows="8" cols="80" placeholder="enter your comments"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" name="button" id="submit">Submit</button>
+
+        </div>
+</form>
+  </body>
+</html>
