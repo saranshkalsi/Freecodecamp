@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+  h1 {
+    display: none;
+  }
+}
+
+
+html {
+  max-width: 100%;
+}
+
+#header {
+  display: block;
+width: 100%;
+height: auto;
+  position: fixed;
+  background-color: black;
+
+}
+
+
+#header-img {
+  float: left;
+ }
+ #nav-bar {
+   float: right;
+ }
+
+
+
+h1 {
+  text-align: center;
+}
+.content {
+  position: ;
+  padding-top: 12%;
+  padding-left: 15%;
+  padding-right:15%;
+  text-align: center;
+}
